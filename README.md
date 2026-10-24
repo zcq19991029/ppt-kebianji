@@ -41,7 +41,7 @@
 在具备skill-installer的Codex中复制：
 
 ```text
-用 $skill-installer 从公开仓库zcq19991029/editable-teaching-graphics的main分支安装：
+用 $skill-installer 从公开仓库zcq19991029/ppt-kebianji的main分支安装：
 .agents/skills/teach-1-plan
 .agents/skills/teach-2-gen
 .agents/skills/teach-3-embed
@@ -242,6 +242,6 @@ PPT提供教学内容依据，生图可创新构图、原创插图和通俗表�
 每个教学图阶段完成后先报告结果，再主动询问下一步并等待选择；允许停止或结束。已明确授权连续执行的范围不重复确认，未授权阶段不自动启动。
 ## 仓库边界
 
-本仓库只保存教学图四阶段公共技能及其安装说明：`teach-1-plan`、`teach-2-gen`、`teach-3-embed`、`teach-4-ppt`。其他业务项目（例如 `classroom-bubble-score`）不属于本仓库，也不应移动到 `.agents/skills`。各项目通过 `.agents/skills/` 的 Junction 连接到本仓库的技能目录；不要在业务项目内复制 `SKILL.md`。
+本仓库只保存教学图四阶段公共技能及其安装说明：`teach-1-plan`、`teach-2-gen`、`teach-3-embed`、`teach-4-ppt`。其他业务项目（例如 `jiafen-qipao`）不属于本仓库，也不应移动到 `.agents/skills`。各项目通过 `.agents/skills/` 的 Junction 连接到本仓库的技能目录；不要在业务项目内复制 `SKILL.md`。
 
 一次性生成/修复脚本必须放对应任务临时目录，验收后清理并核实无引用；不得遗留项目父目录。用户要求单一成品版本时，新版验收后替换正式文件并清理重复版，见统一任务目录规范。
